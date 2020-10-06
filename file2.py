@@ -18,4 +18,5 @@ def sortHourOfDay(data, name):
             BarData[Hour] +=1         
     return BarData
 
+
 print(sortHourOfDay(data, 'ACCIDENT_TIME'))

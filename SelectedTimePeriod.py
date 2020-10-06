@@ -12,6 +12,7 @@ def select_Time_Period(SelDate, EndDate):
     StartYear = SelDate.split('/')[0]
     StartMonth = SelDate.split('/')[1]
     StartDay = SelDate.split('/')[2]
+    
     EndYear = EndDate.split('/')[0]
     EndMonth = EndDate.split('/')[1]
     EndDay = EndDate.split('/')[2]
