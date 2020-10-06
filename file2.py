@@ -6,6 +6,7 @@ SelDate = input("input Start date YYYY/MM/DD: ")
 EndDate = input("input End date YYYY/MM/DD: ")
 
 data = select_Time_Period()
+
 def sortHourOfDay(data, name):
     data = data[[col for col in data]]
     nRow, nCol = data.shape
